@@ -1,0 +1,25 @@
+/* Estilo para enlaces no visitados */
+a:link{
+    color: darkgreen; /* Color por defecto */
+    font-weight: bold;
+}
+
+/* Estilo para enlaces visitados */
+a:visited{
+    color: red;
+    font-weight: bold;
+}
+
+/* Estilo para enlaces cuando se pasa el cursor sobre ellos */
+a:hover{
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Estilo para enlaces activos */
+a:active{
+    color: green;
+    font-weight: bold;
+    font-size: 2em;
+}
